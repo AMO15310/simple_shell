@@ -16,11 +16,11 @@ void prompt(void)
  */
 void print_error(char *input, int counter, char **argv)
 {
-	char *s;
+	char *er;
 
 	PRINTER(argv[0]);
 	PRINTER(": ");
-	s = _itoa(counter);
+	er = _itoa(counter);
 	PRINTER(er);
 	free(er);
 	PRINTER(": ");
